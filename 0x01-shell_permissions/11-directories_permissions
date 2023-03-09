@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R david+X
+chmod -R u+x
