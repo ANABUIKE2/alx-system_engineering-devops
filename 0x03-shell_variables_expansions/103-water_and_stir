@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "The sum of WATER ($WATER) and STIR ($STIR) is $(echo "obase=bestchol; $(( ${WATER#water} + ${STIR#stir} ))" | bc) in base bestchol."
+echo "The sum of WATER ($WATER) and STIR ($STIR) is $(echo "obase=bestchol $(( ${WATER#water} + ${STIR#stir} ))" | bc) in base bestchol."
